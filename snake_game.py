@@ -83,10 +83,10 @@ def main():
                            (segment[0] * CELL_SIZE, segment[1] * CELL_SIZE, 
                             CELL_SIZE, CELL_SIZE))
         
-        # Draw food
-        pygame.draw.rect(screen, RED, 
-                        (food[0] * CELL_SIZE, food[1] * CELL_SIZE, 
-                         CELL_SIZE, CELL_SIZE))
+        # Draw food (circle/apple)
+        center_x = food[0] * CELL_SIZE + CELL_SIZE // 2
+        center_y = food[1] * CELL_SIZE + CELL_SIZE // 2
+        pygame.draw.circle(screen, RED, (center_x, center_y), CELL_SIZE // 2)
         
         # Draw score
         score_text = font.render(f"Score: {score}", True, WHITE)

@@ -41,6 +41,18 @@ class Snake:
 def main():
     screen = pygame.display.set_mode((WINDOW_SIZE, WINDOW_SIZE))
     pygame.display.set_caption("Snake Game")
+    
+    # Crear un icono básico de videojuego
+    icon = pygame.Surface((32, 32))
+    icon.fill(BLACK)
+    # Controlador/gamepad simple
+    pygame.draw.rect(icon, WHITE, (8, 12, 16, 8))  # Cuerpo principal
+    pygame.draw.circle(icon, WHITE, (12, 16), 2)   # Botón izquierdo
+    pygame.draw.circle(icon, WHITE, (20, 16), 2)   # Botón derecho
+    pygame.draw.rect(icon, WHITE, (6, 14, 2, 4))   # D-pad izquierdo
+    pygame.draw.rect(icon, WHITE, (24, 14, 2, 4))  # D-pad derecho
+    pygame.display.set_icon(icon)
+    
     clock = pygame.time.Clock()
     
     snake = Snake()

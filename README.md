@@ -18,7 +18,51 @@ Este es un proyecto educativo diseñado para enseñar conceptos fundamentales de
 - Python 3.6 o superior
 - Pygame 2.5.2
 
-## Instalación
+## Estructura del Curso
+Una guia completa del curso puede encontrarse en los archivos [Curso Python](./curso_python_primaria.md) y [Guía GIT](./guia_git_curso.md). El curso está diseñado para 12 semanas (3 meses) y está dividido en 3 bloques principales:
+
+### MES 1: Fundamentos (Semanas 1-4)
+
+* Hola Mundo y conceptos básicos
+* Variables y tipos de datos
+* Entrada de datos
+* Condicionales
+
+### MES 2: Estructuras de Control (Semanas 5-8)
+
+* Ciclos (while y for)
+* Listas básicas
+* Listas y ciclos combinados
+* Proyecto integrador: Mini-Snake en texto
+
+### MES 3: Proyecto Final (Semanas 9-12)
+
+* Funciones
+* Introducción a Pygame
+* Movimiento y control
+* Proyecto final: Juego Snake completo
+
+### Características del Curso
+
+- Progresivo y Adaptado: Cada concepto se construye sobre el anterior
+- Práctico: Cada semana tiene actividades prácticas y tareas
+- Motivador: Los estudiantes ven progreso constante hacia su juego
+- Visual: A partir de la semana 10, trabajan con gráficos reales
+- Completo: Incluye código funcional del proyecto final
+
+### Puntos Destacados
+
+- Edad apropiada: Lenguaje y ejemplos adaptados para niños de 11-12 años
+- Gamificación: Sistema de puntos y proyectos semanales
+- Recursos completos: Incluye material para instructores y estudiantes
+- Evaluación clara: 20% participación, 30% tareas, 50% proyecto final
+- Extensible: Ideas de mejoras para estudiantes avanzados
+
+El curso culmina con un juego Snake totalmente funcional que incluye todas las características clásicas: movimiento, crecimiento, colisiones, puntuación y sistema de game over/reinicio.
+
+
+## Instalación del juego
+El proyecto incluye un juego completo de ejemplo que uedes instalar siguiendo estas instrucciones. Este código es solo un ejemplo y es ligeramente diferente al que se construye sigueindo el curso.
 
 1. Clona o descarga este repositorio
 2. Crea un entorno virtual (recomendado):
